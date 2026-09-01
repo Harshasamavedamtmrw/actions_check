@@ -6,4 +6,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello from workflow"
+      - run : a=2 & & echo "The value of a is $a"
       
