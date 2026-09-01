@@ -3,7 +3,7 @@ on:
 
 jobs: 
   say_hello_bash: 
-    runs-on: ubuntu 
+    runs-on: ubuntu-latest
     steps:
-      -run: echo "Hello from workflow"
+      - run: echo "Hello from workflow"
       
